@@ -1,0 +1,349 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0090)https://www.wanweibaike.com/wiki-NP%E5%AE%8C%E5%85%A8#%E7%AF%84%E4%BE%8B%E5%95%8F%E9%A1%8C -->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no"><meta name="language" content="cn-ZH"><meta http-equiv="content-language" content="cn-ZH"><meta name="distribution" content="global"><link rel="shortcut icon" href="https://www.wanweibaike.com/Public/img/favicon.ico"><title>NP完全 - 万维百科/维基百科中文版</title><meta name="description" content="NP完全或NP完备（NP-Complete，缩写为NP-C或NPC），是计算复杂度理论中，决定性问题的等级之一。NP完备是NP与NP困难的交集，是NP中最难的决定性问题。因此NP完备问题应该是最不可能被化简为P（多项式时间可决定）的决定性问题的集合。若任何NPC问题得到多项式时间的解法，那此解法就可应用在所有NP问题上。更详细的定义容下叙述。
+一个NPC问题的例子是子集合加总问题，题目为
+
+给予一"><link rel="stylesheet" href="./NP完全 - 万维百科_维基百科中文版_files/bootstrap.min.css"><link rel="stylesheet" href="./NP完全 - 万维百科_维基百科中文版_files/font-awesome.min.css"><!--[if lt IE 9]><script src="/Public/js/html5shiv.min.js"></script><script src="/Public/js/respond.min.js"></script><![endif]--><link rel="stylesheet" href="./NP完全 - 万维百科_维基百科中文版_files/index.css"><script src="./NP完全 - 万维百科_维基百科中文版_files/jquery.min.js.下载"></script></head><body><div class="row no-margin"><div class="col-sm-1 no-margin"><div class="left-side"><div class="logo text-center"><a href="https://www.wanweibaike.com/"><img src="./NP完全 - 万维百科_维基百科中文版_files/logo.gif" alt="万维百科 - 维基百科中文版"></a></div><div class="hidden-xs"><ul class="list-unstyled"><li><a href="https://www.wanweibaike.com/" target="_blank">首页</a></li><li><a href="https://www.wanweibaike.com/wiki/Category-%E5%88%86%E7%B1%BB%E7%9B%AE%E5%BD%95" target="_blank">分类目录</a></li><li><a href="https://www.wanweibaike.com/wiki/Portal-%E9%A6%96%E9%A0%81">主题列表</a></li><li><a href="https://www.wanweibaike.com/wiki/Portal-%E6%96%B0%E9%97%BB%E5%8A%A8%E6%80%81">新闻动态</a></li><li><a href="https://www.wanweibaike.com/Index/random">随机条目</a></li></ul><p class="title">标签</p><ul class="list-unstyled"><li><a href="https://www.wanweibaike.com/" target="_blank">中文版</a></li><li><a href="https://en.wanweibaike.com/" target="_blank">英文版</a></li></ul></div></div></div><div class="col-sm-11 no-margin"><div class="main"><div class="top-nav clearfix"><ul class="pull-left list-unstyled"><li class="item-unedit"><a href="https://www.wanweibaike.com/wiki-NP%E5%AE%8C%E5%85%A8">条目</a></li></ul><form action="https://www.wanweibaike.com/search" class="pull-right" method="post"><div class="input-group"><input type="text" class="form-control" placeholder="搜索万维百科" name="kw"><span class="input-group-btn"><button class="btn btn-default" type="submit">搜索</button></span></div></form><!-- <p class="pull-right hidden-xs" style='line-height:40px;'><small><a href='javascript:;' class='report-problem'>当前页面显示有问题？</a></small></p>--></div><script type="text/javascript">          /*$('.report-problem').click(function(){
+            if(confirm('确定当前页面显示有问题?')==false) return false;
+            var pageUrl=window.location.href;
+            var reportUrl="/index.php/Index/report";
+            $.post(reportUrl,{url:pageUrl},function(data){
+              if(data){
+                alert('提交成功，感谢您的关注与做出的贡献');
+              }
+            },'json');
+          });*/
+        </script><div class="content"><h1>NP完全</h1><div class="detail"><div><div id="bodyContent" class="mw-body-content">
+		
+		
+		
+		
+		
+		
+		
+		
+		<div id="mw-content-text" class="mw-content-ltr"><div class="mw-parser-output"><table class="table-bordered table-striped box-需要专家关注 plainlinks metadata ambox ambox-content" role="presentation"><tbody><tr></tr></tbody></table>
+<table class="table-bordered table-striped box-Disputed plainlinks metadata ambox ambox-content" role="presentation"><tbody><tr></tr></tbody></table>
+
+<p><b>NP完全</b>或<b>NP完备</b>（<b>NP-Complete</b>，缩写为<b>NP-C</b>或<b>NPC</b>），是<a href="https://www.wanweibaike.com/wiki-%E8%AE%A1%E7%AE%97%E5%A4%8D%E6%9D%82%E5%BA%A6%E7%90%86%E8%AE%BA" class="mw-redirect" title="计算复杂度理论">计算复杂度理论</a>中，<a href="https://www.wanweibaike.com/wiki-%E6%B1%BA%E5%AE%9A%E6%80%A7%E5%95%8F%E9%A1%8C" title="决定性问题">决定性问题</a>的等级之一。NP完备是<a href="https://www.wanweibaike.com/wiki-NP_(%E8%A4%87%E9%9B%9C%E5%BA%A6)" title="NP (复杂度)">NP</a>与<a href="https://www.wanweibaike.com/wiki-NP%E5%9B%B0%E9%9A%BE" title="NP困难">NP困难</a>的<a href="https://www.wanweibaike.com/wiki-%E4%BA%A4%E9%9B%86" title="交集">交集</a>，是NP中最难的<a href="https://www.wanweibaike.com/wiki-%E6%B1%BA%E5%AE%9A%E6%80%A7%E5%95%8F%E9%A1%8C" title="决定性问题">决定性问题</a>。因此NP完备问题应该是最不可能被化简为<a href="https://www.wanweibaike.com/wiki-P_(%E8%A4%87%E9%9B%9C%E5%BA%A6)" title="P (复杂度)">P</a>（多项式时间可决定）的决定性问题的集合。若<b>任何</b>NPC问题得到多项式时间的解法，那此解法就可应用在所有NP问题上。更详细的定义容下叙述。
+</p><p>一个NPC问题的例子是<a href="https://www.wanweibaike.com/wiki-%E5%AD%90%E9%9B%86%E5%90%88%E5%8A%A0%E7%B8%BD%E5%95%8F%E9%A1%8C" class="mw-redirect" title="子集合加总问题">子集合加总问题</a>，题目为
+</p>
+<dl><dd>给予一个有限数量的整数集合，找出任何一个此集合的非空子集且此子集内整数和为零。</dd>
+<dd>意即：<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML" alttext="{\displaystyle S}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mi>S</mi>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle S}</annotation>
+  </semantics>
+</math></span><img src="./NP完全 - 万维百科_维基百科中文版_files/4611d85173cd3b508e67077d4a1252c9c05abca2" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.338ex; width:1.499ex; height:2.176ex;" alt="S"></span>是一个包括若干整数的集合，找出任一一个<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML" alttext="{\displaystyle S&#39;\subset S}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <msup>
+          <mi>S</mi>
+          <mo>′</mo>
+        </msup>
+        <mo>⊂</mo>
+        <mi>S</mi>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle S'\subset S}</annotation>
+  </semantics>
+</math></span><img src="./NP完全 - 万维百科_维基百科中文版_files/a82d0bca0d060ab870e85fa22e4de075763a8376" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.338ex; width:6.804ex; height:2.509ex;" alt="{\displaystyle S&#39;\subset S}"></span>且<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML" alttext="{\displaystyle \sum _{x\in S&#39;}x=0}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <munder>
+          <mo>∑</mo>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>x</mi>
+            <mo>∈</mo>
+            <msup>
+              <mi>S</mi>
+              <mo>′</mo>
+            </msup>
+          </mrow>
+        </munder>
+        <mi>x</mi>
+        <mo>=</mo>
+        <mn>0</mn>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle \sum _{x\in S'}x=0}</annotation>
+  </semantics>
+</math></span><img src="./NP完全 - 万维百科_维基百科中文版_files/e07e779b5f35cfcfba963363e68e7b322df33ef1" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -3.338ex; width:9.622ex; height:5.843ex;" alt="\sum _{{x\in S&#39;}}x=0"></span></dd></dl>
+<p>这个问题的答案非常容易验证，但当前没有任何一个够快的方法可以在合理的时间内（意即多项式时间）找到答案。只能一个个将它的子集取出来一一测试，它的时间复杂度是Ο(2<sup>n</sup>)，n是此集合的元素数量。
+</p>
+<div id="toc" class="toc"><input type="checkbox" role="button" id="toctogglecheckbox" class="toctogglecheckbox" style="display:none"><div class="toctitle"><h2>目录</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="https://www.wanweibaike.com/wiki-NP%E5%AE%8C%E5%85%A8#NPC%E7%9A%84%E6%AD%A3%E5%BC%8F%E5%AE%9A%E7%BE%A9"><span class="tocnumber">1</span> <span class="toctext">NPC的正式定义</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="https://www.wanweibaike.com/wiki-NP%E5%AE%8C%E5%85%A8#%E7%AF%84%E4%BE%8B%E5%95%8F%E9%A1%8C"><span class="tocnumber">2</span> <span class="toctext">示例问题</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="https://www.wanweibaike.com/wiki-NP%E5%AE%8C%E5%85%A8#%E6%8A%98%E8%A1%B7%E7%9A%84%E8%A7%A3%E6%B3%95"><span class="tocnumber">3</span> <span class="toctext">折衷的解法</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="https://www.wanweibaike.com/wiki-NP%E5%AE%8C%E5%85%A8#%E5%85%B6%E4%BB%96%E8%AE%8A%E6%8F%9B%E6%B3%95"><span class="tocnumber">4</span> <span class="toctext">其他变换法</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="https://www.wanweibaike.com/wiki-NP%E5%AE%8C%E5%85%A8#%E5%8F%82%E8%A7%81"><span class="tocnumber">5</span> <span class="toctext">参见</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="https://www.wanweibaike.com/wiki-NP%E5%AE%8C%E5%85%A8#%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE"><span class="tocnumber">6</span> <span class="toctext">参考文献</span></a>
+<ul>
+<li class="toclevel-2 tocsection-7"><a href="https://www.wanweibaike.com/wiki-NP%E5%AE%8C%E5%85%A8#%E5%BC%95%E7%94%A8"><span class="tocnumber">6.1</span> <span class="toctext">引用</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="https://www.wanweibaike.com/wiki-NP%E5%AE%8C%E5%85%A8#%E4%B9%A6%E7%B1%8D"><span class="tocnumber">6.2</span> <span class="toctext">书籍</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="https://www.wanweibaike.com/wiki-NP%E5%AE%8C%E5%85%A8#%E7%BD%91%E9%A1%B5"><span class="tocnumber">6.3</span> <span class="toctext">网页</span></a></li>
+</ul>
+</li>
+</ul>
+</div><h2><span class="mw-headline" id="NPC的正式定義">NPC的正式定义</span></h2>
+<div class="thumb tright"><div class="thumbinner" style="width:252px;"><a href="https://www.wanweibaike.com/wiki-File:Complexity_classes.svg" class="image"><img alt="" src="./NP完全 - 万维百科_维基百科中文版_files/250px-Complexity_classes.svg.png" decoding="async" width="250" height="154" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Complexity_classes.svg/375px-Complexity_classes.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Complexity_classes.svg/500px-Complexity_classes.svg.png 2x" data-file-width="414" data-file-height="255"></a>  <div class="thumbcaption"><div class="magnify"><a href="https://www.wanweibaike.com/wiki-File:Complexity_classes.svg" class="internal" title="放大"></a></div>假设<b>P</b> ≠ <b>NP</b>的复杂度类的图解。若<b>P</b> = <b>NP</b>则三类别相同。</div></div></div>
+<p>一个决定性问题<i>C</i>若是为NPC，则代表它对NP是<a href="https://www.wanweibaike.com/wiki-%E5%AE%8C%E5%82%99_(%E8%A4%87%E9%9B%9C%E5%BA%A6)" title="完备 (复杂度)">完备</a>的，这表示：
+</p>
+<ol><li>它是一个NP问题，且</li>
+<li>其他属于NP的问题都可在多项式时间内<a href="https://www.wanweibaike.com/wiki-%E5%BD%92%E7%BA%A6" class="mw-redirect" title="归约">归约</a>成它。</li></ol>
+<p><b>可归约</b>在此意指对每个问题<i>L</i>，总有一个多项式时间多对一变换，即一个决定性的算法可以将实例<i>l</i> ∈ <i>L</i>转化成实例<i>c</i> ∈ <i>C</i>，并让<i>c</i>回答Yes<a href="https://www.wanweibaike.com/wiki-%E5%BD%93%E4%B8%94%E4%BB%85%E5%BD%93" title="当且仅当">当且仅当</a>此答案对<i>l</i>也是Yes。为了证明某个NP问题<i>A</i>实际上是NPC问题，证明者必须找出一个已知的NPC问题可以变换成<i>A</i>。
+</p><p>本定义得到一个结论，就是若上述的<i>C</i>有一个多项式时间可解的算法，则我们可以将所有的NP问题降到P之中。
+</p><p>这个定义是<a href="https://www.wanweibaike.com/wiki-%E5%8F%B2%E6%8F%90%E8%8A%AC%C2%B7%E5%8F%A4%E5%85%8B" class="mw-redirect" title="史提芬·古克">史提芬·古克</a><span class="reference plainlinksneverexpand" id="ref_cook"><sup><a class="external autonumber" href="javascript:">[1]</a></sup></span>所提出。虽然NPC这个词并没有出现在这篇论文上任何地方。在这个信息学会议上，信息学家激动地讨论NPC问题是否可以在一个确定型<a href="https://www.wanweibaike.com/wiki-%E5%9C%96%E9%9D%88%E6%A9%9F" class="mw-redirect" title="图灵机">图灵机</a>上以多项式时间求解。John Hopcroft总结与会众人的共识，认为由于没有人能对某一命题提出驳倒对方的证明，此问题不会于现在解决。此命题就是知名的
+</p>
+<dl><dd><a href="https://www.wanweibaike.com/wiki-P/NP%E5%95%8F%E9%A1%8C" class="mw-redirect" title="P/NP问题"><b>P和NP相等吗?</b></a>。尚未有人能提出证明，说明NPC问题是否能在多项式时间中解决，使得此问题成为著名的<a href="https://www.wanweibaike.com/wiki-%E6%95%B8%E5%AD%B8%E4%B8%AD%E6%9C%AA%E8%A7%A3%E6%B1%BA%E7%9A%84%E5%95%8F%E9%A1%8C" class="mw-redirect" title="数学中未解决的问题">数学中未解决的问题</a>。位于<a href="https://www.wanweibaike.com/wiki-%E5%89%91%E6%A1%A5_(%E9%A9%AC%E8%90%A8%E8%AF%B8%E5%A1%9E%E5%B7%9E)" title="剑桥 (马萨诸塞州)">美国麻省剑桥市</a>的“<a href="https://www.wanweibaike.com/wiki-%E5%85%8B%E9%9B%B7%E6%95%B8%E5%AD%B8%E7%A0%94%E7%A9%B6%E6%89%80" title="克雷数学研究所">克雷数学研究所</a>”（Clay Mathematics Institute，简称CMI）提供了一百万<a href="https://www.wanweibaike.com/wiki-%E7%BE%8E%E5%85%83" title="美元">美元</a>奖金给任何可以证明P=NP或P≠NP的人。</dd></dl>
+<p>一开始很难相信NPC问题是实际存在的，但著名的<a href="https://www.wanweibaike.com/wiki-Cook-Levin%E7%90%86%E8%AB%96" title="Cook-Levin理论">古克-李芬定理</a>说明了一切（由<span class="ilh-all" data-orig-title="Leonid Levin" data-lang-code="en" data-lang-name="英语" data-foreign-title="Leonid Levin"><span class="ilh-page">Leonid Levin</span><span class="noprint ilh-comment">（<span class="ilh-lang">英语</span><span class="ilh-colon">：</span><span class="ilh-link"><a href="https://en.wikipedia.org/wiki/Leonid_Levin" class="extiw" title="en:Leonid Levin"><span lang="en" dir="auto">Leonid Levin</span></a></span>）</span></span>与Cook独立证出<a href="https://www.wanweibaike.com/wiki-%E5%B8%83%E7%88%BE%E5%8F%AF%E6%BB%BF%E8%B6%B3%E6%80%A7%E5%95%8F%E9%A1%8C" class="mw-redirect" title="布尔可满足性问题">SAT问题</a>是NPC问题，简化过但依旧艰深的<a href="https://www.wanweibaike.com/wiki-Cook-Levin%E7%90%86%E8%AB%96" title="Cook-Levin理论">证明</a>在此）。
+</p><p>在1972年，<a href="https://www.wanweibaike.com/wiki-%E7%90%86%E6%9F%A5%E5%BE%B7%C2%B7%E5%8D%A1%E6%99%AE" title="理查德·卡普">理查德·卡普</a>证明有好几个问题也是NPC（请见<a href="https://www.wanweibaike.com/wiki-%E5%8D%A1%E6%99%AE%E7%9A%84%E4%BA%8C%E5%8D%81%E4%B8%80%E5%80%8BNP-%E5%AE%8C%E5%85%A8%E5%95%8F%E9%A1%8C" title="卡普的二十一个NP-完全问题">卡普的二十一个NP-完全问题</a>），因此除了SAT问题外，的确存在着一整类NPC问题。从古克开始，数千个问题借由从其他NPC问题变换而证实也是NPC问题，其中很多问题被搜集在Garey与Johnson于1979年出版的书之中<span class="reference plainlinksneverexpand" id="ref_GareyJohnson"><sup><a class="external autonumber" href="javascript:">[2]</a></sup></span>。
+</p><p>满足条件2（无论是否满足条件1）的问题集合被称为<a href="https://www.wanweibaike.com/wiki-NP-hard" class="mw-redirect" title="NP-hard">NP困难</a>。一个NP困难问题至少跟NPC问题一样难。有一类问题已经被证明属于NP困难但不属于NP，即，这类问题至少与NP-complete一样难，但这类问题又不属于NP（自然也不属于NP-complete）。例如<a href="https://www.wanweibaike.com/wiki-%E5%9C%8D%E6%A3%8B" class="mw-redirect" title="围棋">围棋</a>的必胜下法，就是这样一个问题。<sup id="cite_ref-1" class="reference"><a href="https://www.wanweibaike.com/wiki-NP%E5%AE%8C%E5%85%A8#cite_note-1">[1]</a></sup>
+</p>
+<h2><span class="mw-headline" id="範例問題">示例问题</span></h2>
+<p>另一个有趣的例是<a href="https://www.wanweibaike.com/wiki-%E5%9B%BE%E5%90%8C%E6%9E%84" title="图同构">图同构（isomorphism）问题</a>，即以<a href="https://www.wanweibaike.com/wiki-%E5%9C%96%E8%AB%96" class="mw-redirect" title="图论">图论</a>方法决定两个图是否为同构。两图同构的直觉条件是若其中一图可以经由移动<a href="https://www.wanweibaike.com/wiki-%E5%9B%BE#%E5%9F%BA%E6%9C%AC%E6%9C%AF%E8%AF%AD" class="mw-disambig" title="图">顶点</a>使它与另一个图重合，则为同构。思考下列两问题：
+</p>
+<ul><li>图同构：图G<sub>1</sub>是否与图G<sub>2</sub>同构？</li>
+<li><a href="https://www.wanweibaike.com/wiki-%E5%9B%BE%E5%90%8C%E6%9E%84" title="图同构">子图同构</a>：图G<sub>1</sub>是否与图G<sub>2</sub>的<b>某一子图</b>同构？</li></ul>
+<p>子图同构问题是NPC，而图同构问题一般认为不是P也不是NPC问题，虽然它明显是一个NP问题。这是一个典型被认为很难却还不是NPC问题的例子。
+</p><p>想要证明一个问题是NPC，最简单的方法是先证明它属于NP，然后将“某个已知是NPC的问题”变换成它。因此在学习变换技巧前，先熟悉各种不同类型的NPC问题是很有用的。下表列出了一些以<a href="https://www.wanweibaike.com/wiki-%E6%B1%BA%E5%AE%9A%E6%80%A7%E5%95%8F%E9%A1%8C" title="决定性问题">决定性</a>命题表示的著名NPC问题：
+</p>
+<div class="thumb tright"><div class="thumbinner" style="width:402px;"><a href="https://www.wanweibaike.com/wiki-File:Relative_NPC_chart.svg" class="image"><img alt="" src="./NP完全 - 万维百科_维基百科中文版_files/400px-Relative_NPC_chart.svg.png" decoding="async" width="400" height="440" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/8/89/Relative_NPC_chart.svg/600px-Relative_NPC_chart.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/8/89/Relative_NPC_chart.svg/800px-Relative_NPC_chart.svg.png 2x" data-file-width="500" data-file-height="550"></a>  <div class="thumbcaption"><div class="magnify"><a href="https://www.wanweibaike.com/wiki-File:Relative_NPC_chart.svg" class="internal" title="放大"></a></div>变换流程图。</div></div></div>
+<ul><li><a href="https://www.wanweibaike.com/wiki-%E5%B8%83%E7%88%BE%E5%8F%AF%E6%BB%BF%E8%B6%B3%E6%80%A7%E5%95%8F%E9%A1%8C" class="mw-redirect" title="布尔可满足性问题">布尔可满足性问题</a></li>
+<li><a href="https://www.wanweibaike.com/wiki-%E6%95%B8%E5%AD%97%E6%8E%A8%E7%9B%A4%E9%81%8A%E6%88%B2" title="数字推盘游戏">N-puzzle问题</a>（<a href="https://www.wanweibaike.com/wiki-%E8%8F%AF%E5%AE%B9%E9%81%93_(%E9%81%8A%E6%88%B2)" title="华容道 (游戏)">华容道</a>问题）</li>
+<li><a href="https://www.wanweibaike.com/wiki-%E8%83%8C%E5%8C%85%E5%95%8F%E9%A1%8C" class="mw-redirect" title="背包问题">背包问题</a></li>
+<li><a href="https://www.wanweibaike.com/wiki-%E6%BC%A2%E5%BD%8C%E7%88%BE%E9%A0%93%E8%BF%B4%E5%9C%88%E5%95%8F%E9%A1%8C" class="mw-redirect" title="汉弥尔顿循环问题">汉弥尔顿循环问题</a></li>
+<li><a href="https://www.wanweibaike.com/wiki-%E6%97%85%E8%A1%8C%E6%8E%A8%E9%94%80%E5%91%98%E9%97%AE%E9%A2%98" title="旅行推销员问题">旅行推销员问题</a></li>
+<li>子图同构问题：（<span class="ilh-all" data-orig-title="Subgraph isomorphism problem" data-lang-code="en" data-lang-name="英语" data-foreign-title="Subgraph isomorphism problem"><span class="ilh-page">Subgraph isomorphism problem</span><span class="noprint ilh-comment">（<span class="ilh-lang">英语</span><span class="ilh-colon">：</span><span class="ilh-link"><a href="https://en.wikipedia.org/wiki/Subgraph_isomorphism_problem" class="extiw" title="en:Subgraph isomorphism problem"><span lang="en" dir="auto">Subgraph isomorphism problem</span></a></span>）</span></span>）</li>
+<li><a href="https://www.wanweibaike.com/wiki-%E5%AD%90%E9%9B%86%E5%90%88%E5%8A%A0%E7%B8%BD%E5%95%8F%E9%A1%8C" class="mw-redirect" title="子集合加总问题">子集合加总问题</a></li>
+<li><a href="https://www.wanweibaike.com/wiki-%E5%88%86%E5%9C%98%E5%95%8F%E9%A1%8C" title="分团问题">分团问题</a></li>
+<li><a href="https://www.wanweibaike.com/wiki-%E8%A6%86%E7%9B%96_(%E5%9B%BE%E8%AE%BA)" title="覆盖 (图论)">顶点覆盖问题</a>：（Vertex cover）</li>
+<li>独立顶点集问题：（<span class="ilh-all" data-orig-title="Independent set problem" data-lang-code="en" data-lang-name="英语" data-foreign-title="Independent set problem"><span class="ilh-page">Independent set problem</span><span class="noprint ilh-comment">（<span class="ilh-lang">英语</span><span class="ilh-colon">：</span><span class="ilh-link"><a href="https://en.wikipedia.org/wiki/Independent_set_problem" class="extiw" title="en:Independent set problem"><span lang="en" dir="auto">Independent set problem</span></a></span>）</span></span>）</li>
+<li><a href="https://www.wanweibaike.com/wiki-%E5%9B%BE%E7%9D%80%E8%89%B2%E9%97%AE%E9%A2%98" title="图着色问题">图着色问题</a></li>
+<li><a href="https://www.wanweibaike.com/wiki-%E8%B8%A9%E5%9C%B0%E9%9B%B7" title="扫雷">扫雷</a><sup id="cite_ref-2" class="reference"><a href="https://www.wanweibaike.com/wiki-NP%E5%AE%8C%E5%85%A8#cite_note-2">[2]</a></sup></li></ul>
+<p>更多NPC问题的例子，请见<span class="ilh-all" data-orig-title="NP-complete問題列表" data-lang-code="en" data-lang-name="英语" data-foreign-title="List of NP-complete problems"><span class="ilh-page">NP-complete问题列表</span><span class="noprint ilh-comment">（<span class="ilh-lang">英语</span><span class="ilh-colon">：</span><span class="ilh-link"><a href="https://en.wikipedia.org/wiki/List_of_NP-complete_problems" class="extiw" title="en:List of NP-complete problems"><span lang="en" dir="auto">List of NP-complete problems</span></a></span>）</span></span>。
+</p><p>右边是一些NPC问题及证明其为NPC问题的变换流程图。在流程图中，箭头代表的是从何问题变换成另一问题的过程，要注意的是这张图并不代表这些问题的数学关系，事实上任两个本质为NPC的问题都可以以多项式时间变换，这图仅指示可以让研究者较为简单地变换问题的顺序。
+</p><p>通常一个P与NPC问题的叙述看起来只有一些不同的地方，例如3SAT问题（SAT问题的限制版本）仍然是NPC问题，但更限制的2SAT问题则是个P问题（准确的说，是NL-complete问题），而条件较为宽松的MAX 2SAT问题却又成了NPC问题。决定一个图是否能被两色涂满是P问题，但三色图是NPC问题，即使我们将它限制在<a href="https://www.wanweibaike.com/wiki-%E5%B9%B3%E9%9D%A2%E5%9B%BE_(%E5%9B%BE%E8%AE%BA)" title="平面图 (图论)">平面图</a>上。决定一个图有无<a href="https://www.wanweibaike.com/wiki-%E5%9B%BE#%E5%9F%BA%E6%9C%AC%E6%9C%AF%E8%AF%AD" class="mw-disambig" title="图">循环</a>或它是两分图很容易（在<a href="https://www.wanweibaike.com/wiki-L_(%E8%A4%87%E9%9B%9C%E5%BA%A6)" title="L (复杂度)">log空间等级</a>），但是发现一个最大二分图或最大循环子图则是NPC。以一固定百分比来求郊游打包问题的最佳解可以在多项式时间解决，但是求最佳解是NPC。
+</p>
+<h2><span class="mw-headline" id="折衷的解法">折衷的解法</span></h2>
+<p>当前为止，所有已知解NPC问题的<a href="https://www.wanweibaike.com/wiki-%E6%BC%94%E7%AE%97%E6%B3%95" class="mw-redirect" title="算法">算法</a>需要依照数据数量而定的<b>超多项式</b>（superpolynomial）时间，当前也不知道是否有任何更快的算法存在。因此要在输入数据量大的时候解决一个NPC问题，通常我们使用下列的手段来解：
+</p>
+<ul><li><a href="https://www.wanweibaike.com/wiki-%E8%BF%91%E4%BC%BC%E7%AE%97%E6%B3%95" title="近似算法">近似算法</a>：这类算法可以快速发现离最佳解在一定差距内的次佳解。</li>
+<li><a href="https://www.wanweibaike.com/wiki-%E9%9A%8F%E6%9C%BA%E5%8C%96%E7%AE%97%E6%B3%95" title="随机化算法">随机数算法</a>：此类算法可提供一随机数产生的输入数据，让<b>本质上解答分布均匀</b>的受测程序可以有良好的求解效率。对于解答分布不均匀的程序，则可以降低随机数程度以改变输入数据。</li>
+<li>特例：此算法可以在题目呈献某些特殊情况时快速得解。参数化复杂度（<span class="ilh-all" data-orig-title="Parameterized complexity" data-lang-code="en" data-lang-name="英语" data-foreign-title="Parameterized complexity"><span class="ilh-page">Parameterized complexity</span><span class="noprint ilh-comment">（<span class="ilh-lang">英语</span><span class="ilh-colon">：</span><span class="ilh-link"><a href="https://en.wikipedia.org/wiki/Parameterized_complexity" class="extiw" title="en:Parameterized complexity"><span lang="en" dir="auto">Parameterized complexity</span></a></span>）</span></span>）可视为广义的此类算法。</li>
+<li><a href="https://www.wanweibaike.com/wiki-%E5%90%AF%E5%8F%91%E5%BC%8F%E6%90%9C%E7%B4%A2" title="启发式搜索">启发式算法</a>：这种算法在许多时候可以产生<b>理性解答</b>（即运用评比或线索找出解），但无法保证它效率的良莠与解答的好坏程度。一个启发式算法的例子是用在<a href="https://www.wanweibaike.com/wiki-%E5%9B%BE%E7%9D%80%E8%89%B2%E9%97%AE%E9%A2%98" title="图着色问题">图着色问题</a>以O（<i>n</i> log <i>n</i>）的<a href="https://www.wanweibaike.com/wiki-%E8%B2%AA%E5%A9%AA%E6%BC%94%E7%AE%97%E6%B3%95" class="mw-redirect" title="贪心算法">贪心算法</a>找次佳解，用在某些编译器的<a href="https://www.wanweibaike.com/wiki-%E6%9A%AB%E5%AD%98%E5%99%A8%E9%85%8D%E7%BD%AE" title="寄存器配置">寄存器配置</a>阶段上，此技术又叫图着色全局寄存器配置（graph-coloring global register allocation）。每顶点视为一变量，每边代表两变量同时使用的情况，颜色则代表配置给每一变量的<a href="https://www.wanweibaike.com/wiki-%E6%9A%AB%E5%AD%98%E5%99%A8" class="mw-redirect" title="寄存器">寄存器</a>编号。由于大多数的<a href="https://www.wanweibaike.com/wiki-RISC" class="mw-redirect" title="RISC">RISC</a>机器拥有大量通用寄存器，因此启发式算法很适合用来解这类题目。</li></ul>
+<h2><span class="mw-headline" id="其他變換法">其他变换法</span></h2>
+<p>依照上述NPC的定义，所谓的变换其实是多项式时间多对一变换的简称。
+</p><p>另一种化约法称为<a href="https://www.wanweibaike.com/wiki-%E5%A4%9A%E9%A1%B9%E5%BC%8F%E6%97%B6%E9%97%B4%E5%9B%BE%E7%81%B5%E5%BD%92%E7%BA%A6" class="mw-redirect" title="多项式时间图灵归约">多项式时间图灵归约</a>（<span class="ilh-all" data-orig-title="polynomial-time Turing reduction" data-lang-code="en" data-lang-name="英语" data-foreign-title="polynomial-time Turing reduction"><span class="ilh-page">polynomial-time Turing reduction</span><span class="noprint ilh-comment">（<span class="ilh-lang">英语</span><span class="ilh-colon">：</span><span class="ilh-link"><a href="https://en.wikipedia.org/wiki/polynomial-time_Turing_reduction" class="extiw" title="en:polynomial-time Turing reduction"><span lang="en" dir="auto">polynomial-time Turing reduction</span></a></span>）</span></span>）。若我们提供一个副函数（subroutine）可以在多项式时间解出"Y"，<b>又</b>可写出调用此副函数的程序并在多项式时间解出问题"X"，代表我们可以将"X"多项式时间图灵变换成"Y"。相较起来，不同处在于多对一变换只能调用上述副函数<b>一次</b>，且副函数的回传值必须<b>就是</b>整个变换程序回传的值。
+</p><p>如果有人使用图灵变换而非多对一变换来解析NPC，此问题的解答集合不一定会小于NPC。孰大孰小其实是个开放问题。如果两个概念相同，则可导出NP=<a href="https://www.wanweibaike.com/wiki-%E5%8F%8DNP" title="反NP">反NP</a>（<a href="https://www.wanweibaike.com/wiki-%E5%8F%8DNP" title="反NP">co-NP</a>）。此结论成立的道理在于NPC与反NPC的定义以图灵归约来看是相等的，且图灵变换定义的NPC包含多对一变换定义的NPC，反NPC也是相同情况。所以若是两种变换定义的NPC一样大的话，反NPC也会比照办理（在两者的定义之下）。例如SAT的反问题也会是NPC（在两者的定义之下）。因此推得NP = 反NP（证明在<a href="https://www.wanweibaike.com/wiki-%E5%8F%8DNP" title="反NP">反NP</a>条目中）。虽然NP是否等于反NP是个开放问题，但一般认为这似乎不大可能，也因此那两类的NPC定义也不大可能相等。
+</p><p>另一种很常用于NPC证明的变换手法是对数空间多对一变换（<a href="https://www.wanweibaike.com/wiki-Log-%E7%A9%BA%E9%97%B4%E8%A7%84%E7%BA%A6" class="mw-redirect" title="Log-空间规约">logarithmic-space many-one reduction</a>），它是一种可以在对数量级空间运用的多对一变换法。由于每道可以在对数空间完成的运算也可以在多项式时间做完，因此能使用对数空间多对一变换的场合也可以使用多项式时间多对一变换。本方法较多项式时间多对一变换优雅，它也可以让我们对算法复杂度细分出更多分类，例如P完备复杂度。而NPC的定义是否会因为使用不同变换手法而产生差异，仍是一个未知的问题。
+</p>
+<h2><span class="mw-headline" id="参见">参见</span></h2>
+<ul><li>NP-complete问题列表</li>
+<li>几乎完备（<span class="ilh-all" data-orig-title="Almost complete" data-lang-code="en" data-lang-name="英语" data-foreign-title="Almost complete"><span class="ilh-page">Almost complete</span><span class="noprint ilh-comment">（<span class="ilh-lang">英语</span><span class="ilh-colon">：</span><span class="ilh-link"><a href="https://en.wikipedia.org/wiki/Almost_complete" class="extiw" title="en:Almost complete"><span lang="en" dir="auto">Almost complete</span></a></span>）</span></span>）问题与弱完备（<span class="ilh-all" data-orig-title="weakly complete" data-lang-code="en" data-lang-name="英语" data-foreign-title="weakly complete"><span class="ilh-page">weakly complete</span><span class="noprint ilh-comment">（<span class="ilh-lang">英语</span><span class="ilh-colon">：</span><span class="ilh-link"><a href="https://en.wikipedia.org/wiki/weakly_complete" class="extiw" title="en:weakly complete"><span lang="en" dir="auto">weakly complete</span></a></span>）</span></span>）问题</li>
+<li>ASR-complete</li>
+<li>Ladner理论</li>
+<li><a href="https://www.wanweibaike.com/wiki-NP%E5%9B%B0%E9%9A%BE" title="NP困难">NP困难</a></li>
+<li><a href="https://www.wanweibaike.com/wiki-P/NP%E9%97%AE%E9%A2%98" title="P/NP问题">P/NP问题</a></li></ul>
+<h2><span class="mw-headline" id="参考文献">参考文献</span></h2>
+<h3><span class="mw-headline" id="引用">引用</span></h3>
+<div class="reflist columns references-column-count references-column-count-1" style="-moz-column-count: 1; -webkit-column-count: 1; column-count: 1; list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="https://www.wanweibaike.com/wiki-NP%E5%AE%8C%E5%85%A8#cite_ref-1">^</a></b></span> <span class="reference-text">此段原称NP-Hard问题为“一个满足条件2但不满足条件1的问题”，应是有误。改为现版本，依据为《Introduction to Algorithms》3rd By Thomas H. Cormen英文版1078页，引理1</span>
+</li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><b><a href="https://www.wanweibaike.com/wiki-NP%E5%AE%8C%E5%85%A8#cite_ref-2">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://web.mat.bham.ac.uk/R.W.Kaye/minesw/ASE2003.pdf">How Complicated is Minesweeper? - Richard Kaye</a></span>
+</li>
+</ol></div>
+<h3><span class="mw-headline" id="书籍">书籍</span></h3>
+<ul><li><span class="citation wikicite" id="endnote_cook"><b><a href="https://www.wanweibaike.com/wiki-NP%E5%AE%8C%E5%85%A8#ref_cook">^</a></b></span> <cite class="citation book">S. A. Cook. The complexity of theorem proving procedures, Proceedings, Third Annual ACM Symposium on the Theory of Computing. New York: ACM. 1971: 151–158.</cite></li>
+<li><span class="citation wikicite" id="endnote_GareyJohnson"><b><a href="https://www.wanweibaike.com/wiki-NP%E5%AE%8C%E5%85%A8#ref_GareyJohnson">^</a></b></span> <cite class="citation book">Garey, M.; D. Johnson. Computers and Intractability; A Guide to the Theory of NP-Completeness. 1979. <a href="https://www.wanweibaike.com/wiki-Special:%E7%BD%91%E7%BB%9C%E4%B9%A6%E6%BA%90/9780716710455" class="internal mw-magiclink-isbn">ISBN 978-0-7167-1045-5</a>.</cite> <span style="display:none;font-size:100%" class="error citation-comment">引文使用过时参数coauthors (<a href="https://www.wanweibaike.com/wiki-Help:%E5%BC%95%E6%96%87%E6%A0%BC%E5%BC%8F1%E9%94%99%E8%AF%AF#deprecated_params" title="Help:引文格式1错误">帮助</a>)</span>（此书是发展此理论及集多种问题的经典）</li>
+<li><cite class="citation book">Paul E. Dunne. <a rel="nofollow" class="external text" href="http://www.csc.liv.ac.uk/~ped/teachadmin/COMP202/annotated_np.html">An Annotated List of Selected NP-complete Problems</a>. The University of Liverpool, Dept of Computer Science, COMP202.</cite></li>
+<li><cite class="citation book">Pierluigi Crescenzi; Viggo Kann, Magnús Halldórsson, Marek Karpinski, and Gerhard Woeginger. <a rel="nofollow" class="external text" href="http://www.nada.kth.se/~viggo/problemlist/compendium.html">A compendium of NP optimization problems</a>. Stockholm: KTH NADA.</cite> <span style="display:none;font-size:100%" class="error citation-comment">引文使用过时参数coauthors (<a href="https://www.wanweibaike.com/wiki-Help:%E5%BC%95%E6%96%87%E6%A0%BC%E5%BC%8F1%E9%94%99%E8%AF%AF#deprecated_params" title="Help:引文格式1错误">帮助</a>)</span></li>
+<li><cite class="citation book">Thomas H. Cormen; Charles E. Leiserson, Ronald L. Rivest and Clifford Stein. NP-Completeness. Introduction to Algorithms Second Edition. MIT Press and McGraw-Hill. 2001: 966–1021. <a href="https://www.wanweibaike.com/wiki-Special:%E7%BD%91%E7%BB%9C%E4%B9%A6%E6%BA%90/9780262032933" class="internal mw-magiclink-isbn">ISBN 978-0-262-03293-3</a>.</cite> <span style="display:none;font-size:100%" class="error citation-comment">引文使用过时参数coauthors (<a href="https://www.wanweibaike.com/wiki-Help:%E5%BC%95%E6%96%87%E6%A0%BC%E5%BC%8F1%E9%94%99%E8%AF%AF#deprecated_params" title="Help:引文格式1错误">帮助</a>)</span><span class="citation-comment" style="display:none; color:#33aa33"> 引文格式1维护：冗余文本 (<a href="https://www.wanweibaike.com/wiki/Category-%E5%BC%95%E6%96%87%E6%A0%BC%E5%BC%8F1%E7%BB%B4%E6%8A%A4%EF%BC%9A%E5%86%97%E4%BD%99%E6%96%87%E6%9C%AC" title="Category:引文格式1维护：冗余文本">link</a>)</span></li>
+<li><cite class="citation book">Michael Sipser. NP-completeness, Additional NP-complete Problems. Introduction to the Theory of Computation. PWS Publishing. 1997: 248–271. <a href="https://www.wanweibaike.com/wiki-Special:%E7%BD%91%E7%BB%9C%E4%B9%A6%E6%BA%90/9780534947286" class="internal mw-magiclink-isbn">ISBN 978-0-534-94728-6</a>.</cite></li>
+<li><cite class="citation book">Christos Papadimitriou. NP-complete problems. Computational Complexity 1st edition. Addison Wesley. 1993: 181–218. <a href="https://www.wanweibaike.com/wiki-Special:%E7%BD%91%E7%BB%9C%E4%B9%A6%E6%BA%90/9780201530827" class="internal mw-magiclink-isbn">ISBN 978-0-201-53082-7</a>.</cite><span class="citation-comment" style="display:none; color:#33aa33"> 引文格式1维护：冗余文本 (<a href="https://www.wanweibaike.com/wiki/Category-%E5%BC%95%E6%96%87%E6%A0%BC%E5%BC%8F1%E7%BB%B4%E6%8A%A4%EF%BC%9A%E5%86%97%E4%BD%99%E6%96%87%E6%9C%AC" title="Category:引文格式1维护：冗余文本">link</a>)</span></li></ul>
+<h3><span class="mw-headline" id="网页">网页</span></h3>
+<ul><li><a rel="nofollow" class="external text" href="http://www.ics.uci.edu/~eppstein/cgt/hard.html">Computational Complexity of Games and Puzzles</a></li>
+<li><a rel="nofollow" class="external text" href="http://arxiv.org/abs/cs.CC/0210020">Tetris is Hard, Even to Approximate</a></li>
+<li><a rel="nofollow" class="external text" href="https://web.archive.org/web/20061216121200/http://for.mat.bham.ac.uk/R.W.Kaye/minesw/ordmsw.htm">Minesweeper is NP-complete!</a></li></ul>
+<div style="clear: both; height: 1em"></div>
+<table cellspacing="0" class="navbox" style="border-spacing:0"><tbody><tr><td style="padding:2px"><table cellspacing="0" class="nowraplinks collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr class="default-hide"><th scope="col" class="navbox-title" colspan="3"><div style="font-size:110%">重要的<a href="https://www.wanweibaike.com/wiki-%E8%A4%87%E9%9B%9C%E5%BA%A6%E9%A1%9E" class="mw-redirect" title="复杂度类">复杂度类</a>（<a href="https://www.wanweibaike.com/wiki-%E8%A4%87%E9%9B%9C%E5%BA%A6%E9%A1%9E%E5%88%97%E8%A1%A8" title="复杂度类列表">完整列表</a>）</div></th></tr><tr style="height:2px" class="hidden"><td colspan="3"></td></tr><tr class="hidden"><th scope="row" class="navbox-group">易解复杂度类</th><td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><table cellspacing="0" class="nowraplinks navbox-subgroup" style="border-spacing:0"><tbody><tr class="default-hide"><th scope="row" class="navbox-group"><a href="https://www.wanweibaike.com/wiki-%E5%AF%B9%E6%95%B0%E7%A9%BA%E9%97%B4" class="mw-redirect" title="对数空间">对数空间</a>相关</th><td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;background:transparent;"><div style="padding:0em 0.25em">
+<ul><li><a href="https://www.wanweibaike.com/wiki-DLOGTIME" title="DLOGTIME">DLOGTIME</a></li>
+<li><span class="ilh-all" data-orig-title="AC0" data-lang-code="en" data-lang-name="英语" data-foreign-title="AC0"><span class="ilh-page">AC0</span><span class="noprint ilh-comment">（<span class="ilh-lang">英语</span><span class="ilh-colon">：</span><span class="ilh-link"><a href="https://en.wikipedia.org/wiki/AC0" class="extiw" title="en:AC0"><span lang="en" dir="auto">AC0</span></a></span>）</span></span></li>
+<li><span class="ilh-all" data-orig-title="ACC0" data-lang-code="en" data-lang-name="英语" data-foreign-title="ACC0"><span class="ilh-page">ACC0</span><span class="noprint ilh-comment">（<span class="ilh-lang">英语</span><span class="ilh-colon">：</span><span class="ilh-link"><a href="https://en.wikipedia.org/wiki/ACC0" class="extiw" title="en:ACC0"><span lang="en" dir="auto">ACC0</span></a></span>）</span></span></li>
+<li><span class="ilh-all" data-orig-title="TC0" data-lang-code="en" data-lang-name="英语" data-foreign-title="TC0"><span class="ilh-page">TC0</span><span class="noprint ilh-comment">（<span class="ilh-lang">英语</span><span class="ilh-colon">：</span><span class="ilh-link"><a href="https://en.wikipedia.org/wiki/TC0" class="extiw" title="en:TC0"><span lang="en" dir="auto">TC0</span></a></span>）</span></span></li>
+<li><a href="https://www.wanweibaike.com/wiki-L_(%E8%A4%87%E9%9B%9C%E5%BA%A6)" title="L (复杂度)">L · <span class="nowrap">FL ·</span> <span class="nowrap">SL ·</span> <span class="nowrap">NL</span></a></li>
+<li><a href="https://www.wanweibaike.com/wiki-NC_(%E5%A4%8D%E6%9D%82%E5%BA%A6)" title="NC (复杂度)">NC</a></li>
+<li><a href="https://www.wanweibaike.com/wiki-SC_(%E8%A4%87%E9%9B%9C%E5%BA%A6)" title="SC (复杂度)">SC</a></li>
+<li><a href="https://www.wanweibaike.com/wiki-PolyL" title="PolyL">PolyL</a></li></ul>
+</div></td></tr><tr style="height:2px" class="hidden"><td colspan="3"></td></tr><tr class="hidden"><th scope="row" class="navbox-group"><a href="https://www.wanweibaike.com/wiki-%E5%A4%9A%E9%A1%B9%E5%BC%8F%E7%A9%BA%E9%97%B4" class="mw-redirect" title="多项式空间">多项式空间</a>相关</th><td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;background:transparent;"><div style="padding:0em 0.25em">
+<ul><li><a href="https://www.wanweibaike.com/wiki-P_(%E8%A4%87%E9%9B%9C%E5%BA%A6)" title="P (复杂度)">P</a>（<a href="https://www.wanweibaike.com/wiki-P-%E5%AE%8C%E5%85%A8" title="P-完全">P-完全</a>）</li>
+<li><span class="ilh-all" data-orig-title="FP (复杂度)" data-lang-code="en" data-lang-name="英语" data-foreign-title="FP (complexity)"><span class="ilh-page">FP</span><span class="noprint ilh-comment">（<span class="ilh-lang">英语</span><span class="ilh-colon">：</span><span class="ilh-link"><a href="https://en.wikipedia.org/wiki/FP_(complexity)" class="extiw" title="en:FP (complexity)"><span lang="en" dir="auto">FP (complexity)</span></a></span>）</span></span></li>
+<li><a href="https://www.wanweibaike.com/wiki-ZPP_(%E8%A4%87%E9%9B%9C%E5%BA%A6)" title="ZPP (复杂度)">ZPP</a></li>
+<li><a href="https://www.wanweibaike.com/wiki-RP_(%E8%A4%87%E9%9B%9C%E5%BA%A6)" title="RP (复杂度)">RP</a></li>
+<li><a href="https://www.wanweibaike.com/wiki-BPP_(%E8%A4%87%E9%9B%9C%E5%BA%A6)" title="BPP (复杂度)">BPP</a></li>
+<li><a href="https://www.wanweibaike.com/wiki-BQP_(%E8%A4%87%E9%9B%9C%E5%BA%A6)" title="BQP (复杂度)">BQP</a>（<span class="ilh-all" data-orig-title="QMA (复杂度)" data-lang-code="en" data-lang-name="英语" data-foreign-title="QMA"><span class="ilh-page">QMA</span><span class="noprint ilh-comment">（<span class="ilh-lang">英语</span><span class="ilh-colon">：</span><span class="ilh-link"><a href="https://en.wikipedia.org/wiki/QMA" class="extiw" title="en:QMA"><span lang="en" dir="auto">QMA</span></a></span>）</span></span></li>
+<li><span class="ilh-all" data-orig-title="PostBQP (复杂度)" data-lang-code="en" data-lang-name="英语" data-foreign-title="PostBQP"><span class="ilh-page">PostBQP</span><span class="noprint ilh-comment">（<span class="ilh-lang">英语</span><span class="ilh-colon">：</span><span class="ilh-link"><a href="https://en.wikipedia.org/wiki/PostBQP" class="extiw" title="en:PostBQP"><span lang="en" dir="auto">PostBQP</span></a></span>）</span></span></li>
+<li><span class="ilh-all" data-orig-title="EQP (复杂度)" data-lang-code="en" data-lang-name="英语" data-foreign-title="EQP"><span class="ilh-page">EQP</span><span class="noprint ilh-comment">（<span class="ilh-lang">英语</span><span class="ilh-colon">：</span><span class="ilh-link"><a href="https://en.wikipedia.org/wiki/EQP" class="extiw" title="en:EQP"><span lang="en" dir="auto">EQP</span></a></span>）</span></span>）</li></ul>
+</div></td></tr></tbody></table></td><td class="navbox-image" rowspan="9" style="width:0%;padding:0px 0px 0px 2px"><div><a href="https://www.wanweibaike.com/wiki-File:Important_Complexity_Classes_within_PSPACE.svg" class="image" title="P、NP、反NP与PSPACE之间的关系"><img alt="P、NP、反NP与PSPACE之间的关系" src="./NP完全 - 万维百科_维基百科中文版_files/100px-Important_Complexity_Classes_within_PSPACE.svg.png" decoding="async" width="100" height="100" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/2/21/Important_Complexity_Classes_within_PSPACE.svg/150px-Important_Complexity_Classes_within_PSPACE.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/2/21/Important_Complexity_Classes_within_PSPACE.svg/200px-Important_Complexity_Classes_within_PSPACE.svg.png 2x" data-file-width="556" data-file-height="556"></a></div></td></tr><tr style="height:2px" class="hidden"><td colspan="3"></td></tr><tr class="hidden"><th scope="row" class="navbox-group">怀疑难解复杂度类</th><td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="https://www.wanweibaike.com/wiki-UP_(%E8%A4%87%E9%9B%9C%E5%BA%A6)" title="UP (复杂度)">UP</a></li>
+<li><a href="https://www.wanweibaike.com/wiki-NP_(%E8%A4%87%E9%9B%9C%E5%BA%A6)" title="NP (复杂度)">NP</a>（<a class="mw-selflink selflink">NP完全</a></li>
+<li><a href="https://www.wanweibaike.com/wiki-NP%E5%9B%B0%E9%9A%BE" title="NP困难">NP困难</a></li>
+<li><a href="https://www.wanweibaike.com/wiki-%E5%8F%8DNP" title="反NP">反NP</a></li>
+<li><span class="ilh-all" data-orig-title="反NP完全" data-lang-code="en" data-lang-name="英语" data-foreign-title="co-NP-complete"><span class="ilh-page">反NP完全</span><span class="noprint ilh-comment">（<span class="ilh-lang">英语</span><span class="ilh-colon">：</span><span class="ilh-link"><a href="https://en.wikipedia.org/wiki/co-NP-complete" class="extiw" title="en:co-NP-complete"><span lang="en" dir="auto">co-NP-complete</span></a></span>）</span></span>）</li>
+<li><span class="ilh-all" data-orig-title="FNP (复杂度)" data-lang-code="en" data-lang-name="英语" data-foreign-title="FNP (complexity)"><span class="ilh-page">FNP</span><span class="noprint ilh-comment">（<span class="ilh-lang">英语</span><span class="ilh-colon">：</span><span class="ilh-link"><a href="https://en.wikipedia.org/wiki/FNP_(complexity)" class="extiw" title="en:FNP (complexity)"><span lang="en" dir="auto">FNP (complexity)</span></a></span>）</span></span>（<span class="ilh-all" data-orig-title="TFNP (复杂度)" data-lang-code="en" data-lang-name="英语" data-foreign-title="TFNP (complexity)"><span class="ilh-page">TFNP</span><span class="noprint ilh-comment">（<span class="ilh-lang">英语</span><span class="ilh-colon">：</span><span class="ilh-link"><a href="https://en.wikipedia.org/wiki/TFNP_(complexity)" class="extiw" title="en:TFNP (complexity)"><span lang="en" dir="auto">TFNP (complexity)</span></a></span>）</span></span>）</li>
+<li><a href="https://www.wanweibaike.com/wiki-PH_(%E8%A4%87%E9%9B%9C%E5%BA%A6)" title="PH (复杂度)">PH</a></li>
+<li><a href="https://www.wanweibaike.com/wiki-PP_(%E8%A4%87%E9%9B%9C%E5%BA%A6)" title="PP (复杂度)">PP</a></li>
+<li><a href="https://www.wanweibaike.com/wiki-%EF%BC%83P" title="＃P">#P</a>（<span class="ilh-all" data-orig-title="＃P-完全" data-lang-code="en" data-lang-name="英语" data-foreign-title="Sharp-P-complete"><span class="ilh-page">#P-完全</span><span class="noprint ilh-comment">（<span class="ilh-lang">英语</span><span class="ilh-colon">：</span><span class="ilh-link"><a href="https://en.wikipedia.org/wiki/Sharp-P-complete" class="extiw" title="en:Sharp-P-complete"><span lang="en" dir="auto">Sharp-P-complete</span></a></span>）</span></span>）</li>
+<li><a href="https://www.wanweibaike.com/wiki-PSPACE" title="PSPACE">PSPACE</a>（<span class="ilh-all" data-orig-title="PSPACE完全" data-lang-code="en" data-lang-name="英语" data-foreign-title="PSPACE-complete"><span class="ilh-page">PSPACE完全</span><span class="noprint ilh-comment">（<span class="ilh-lang">英语</span><span class="ilh-colon">：</span><span class="ilh-link"><a href="https://en.wikipedia.org/wiki/PSPACE-complete" class="extiw" title="en:PSPACE-complete"><span lang="en" dir="auto">PSPACE-complete</span></a></span>）</span></span>）</li></ul>
+</div></td></tr><tr style="height:2px" class="hidden"><td colspan="3"></td></tr><tr class="hidden"><th scope="row" class="navbox-group">难解复杂度类</th><td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="https://www.wanweibaike.com/wiki-EXPTIME" title="EXPTIME">EXPTIME</a></li>
+<li><a href="https://www.wanweibaike.com/wiki-NEXPTIME" title="NEXPTIME">NEXPTIME</a></li>
+<li><a href="https://www.wanweibaike.com/wiki-EXPSPACE" title="EXPSPACE">EXPSPACE</a></li>
+<li><a href="https://www.wanweibaike.com/wiki-ELEMENTARY" title="ELEMENTARY">ELEMENTARY</a></li>
+<li><a href="https://www.wanweibaike.com/wiki-PR_(%E8%A4%87%E9%9B%9C%E5%BA%A6)" title="PR (复杂度)">PR</a></li>
+<li><a href="https://www.wanweibaike.com/wiki-R_(%E8%A4%87%E9%9B%9C%E5%BA%A6)" title="R (复杂度)">R</a></li>
+<li><a href="https://www.wanweibaike.com/wiki-RE_(%E8%A4%87%E9%9B%9C%E5%BA%A6)" title="RE (复杂度)">RE</a></li>
+<li><a href="https://www.wanweibaike.com/wiki-ALL_(%E8%A4%87%E9%9B%9C%E5%BA%A6)" title="ALL (复杂度)">ALL</a></li></ul>
+</div></td></tr><tr style="height:2px" class="hidden"><td colspan="3"></td></tr><tr class="hidden"><th scope="row" class="navbox-group">复杂度类的谱系</th><td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="https://www.wanweibaike.com/wiki-%E5%A4%9A%E9%A0%85%E5%BC%8F%E8%AD%9C%E7%B3%BB" title="多项式谱系">多项式谱系</a></li>
+<li><a href="https://www.wanweibaike.com/wiki-%E6%8C%87%E6%95%B8%E8%AD%9C%E7%B3%BB" title="指数谱系">指数谱系</a></li>
+<li><span class="ilh-all" data-orig-title="Grzegorczyk谱系" data-lang-code="en" data-lang-name="英语" data-foreign-title="Grzegorczyk hierarchy"><span class="ilh-page">Grzegorczyk谱系</span><span class="noprint ilh-comment">（<span class="ilh-lang">英语</span><span class="ilh-colon">：</span><span class="ilh-link"><a href="https://en.wikipedia.org/wiki/Grzegorczyk_hierarchy" class="extiw" title="en:Grzegorczyk hierarchy"><span lang="en" dir="auto">Grzegorczyk hierarchy</span></a></span>）</span></span></li>
+<li><a href="https://www.wanweibaike.com/wiki-%E7%AE%97%E6%9C%AF%E8%B0%B1%E7%B3%BB" class="mw-redirect" title="算术谱系">算术谱系</a></li></ul>
+</div></td></tr><tr style="height:2px" class="hidden"><td colspan="3"></td></tr><tr class="hidden"><th scope="row" class="navbox-group">相关复杂度族</th><td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="https://www.wanweibaike.com/wiki-DTIME" title="DTIME">DTIME</a></li>
+<li><a href="https://www.wanweibaike.com/wiki-NTIME" title="NTIME">NTIME</a></li>
+<li><span class="ilh-all" data-orig-title="DSPACE" data-lang-code="en" data-lang-name="英语" data-foreign-title="DSPACE"><span class="ilh-page">DSPACE</span><span class="noprint ilh-comment">（<span class="ilh-lang">英语</span><span class="ilh-colon">：</span><span class="ilh-link"><a href="https://en.wikipedia.org/wiki/DSPACE" class="extiw" title="en:DSPACE"><span lang="en" dir="auto">DSPACE</span></a></span>）</span></span></li>
+<li><a href="https://www.wanweibaike.com/wiki-NSPACE" title="NSPACE">NSPACE</a></li>
+<li><span class="ilh-all" data-orig-title="可能性核对证明" data-lang-code="en" data-lang-name="英语" data-foreign-title="Probabilistically checkable proof"><span class="ilh-page">可能性核对证明</span><span class="noprint ilh-comment">（<span class="ilh-lang">英语</span><span class="ilh-colon">：</span><span class="ilh-link"><a href="https://en.wikipedia.org/wiki/Probabilistically_checkable_proof" class="extiw" title="en:Probabilistically checkable proof"><span lang="en" dir="auto">Probabilistically checkable proof</span></a></span>）</span></span></li>
+<li><a href="https://www.wanweibaike.com/wiki-%E4%BA%A4%E4%BA%92%E5%BC%8F%E8%AF%81%E6%98%8E%E7%B3%BB%E7%BB%9F" title="交互式证明系统">交互式证明系统</a></li>
+<li><a href="https://www.wanweibaike.com/wiki-%E9%87%8F%E5%AD%90%E5%A4%8D%E6%9D%82%E6%80%A7%E7%90%86%E8%AE%BA" title="量子复杂性理论">量子复杂性理论</a></li></ul>
+</div></td></tr></tbody></table></td></tr></tbody></table>
+
+
+</div></div>
+		
+		
+		
+		<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="https://www.wanweibaike.com/wiki-Special:%E9%A1%B5%E9%9D%A2%E5%88%86%E7%B1%BB" title="Special:页面分类">分类</a>：<ul><li>自2012年10月需要计算机科学专家关注的页面</li><li><a href="https://www.wanweibaike.com/wiki/Category-%E8%A4%87%E9%9B%9C%E5%BA%A6%E9%A1%9E" title="Category:複雜度類">复杂度类</a></li><li><a href="https://www.wanweibaike.com/wiki/Category-%E6%9C%80%E4%BC%98%E5%8C%96" title="Category:最优化">最优化</a></li><li><a href="https://www.wanweibaike.com/wiki/Category-NP%E5%AE%8C%E5%85%A8%E9%97%AE%E9%A2%98" title="Category:NP完全问题">NP完全问题</a></li></ul></div></div>
+		
+		
+	</div>
+</div>
+</div></div></div><br><div class="foot"><p>本页面最后更新于2019-11-01 21:15，点击<span class="btn btn-default btn-xs disabled" id="updateNow" data-id="VgpaAglT">更新太频繁，两分钟之后再试</span>，<a href="https://zh.wikipedia.org/zh-cn/NP%E5%AE%8C%E5%85%A8" target="_blank">查看原网页</a>。</p><p>本站的所有资料包括但不限于文字、图片等全部转载于维基百科(wikipedia.org)，遵循 <a href="https://zh.wikipedia.org/wiki/Wikipedia:CC_BY-SA_3.0%E5%8D%8F%E8%AE%AE%E6%96%87%E6%9C%AC" target="_blank">维基百科:CC BY-SA 3.0协议</a></p><p>万维百科为维基百科爱好者建立的公益网站，旨在为中国大陆网民提供优质内容，因此对部分内容进行改编以符合中国大陆政策，如果您不接受，可以直接访问<a href="https://zh.wikipedia.org/">维基百科官方网站</a>。</p><ul id="footer-places" class="list-unstyled"><li><a href="https://www.wanweibaike.com/about-us" target="_blank">关于万维百科</a></li><li><a href="https://www.wanweibaike.com/disclaimer" target="_blank">免责声明</a></li><li><a href="https://www.wanweibaike.com/contact-us" target="_blank">联系我们</a></li><li><script type="text/javascript" src="./NP完全 - 万维百科_维基百科中文版_files/z_stat.php"></script><script src="./NP完全 - 万维百科_维基百科中文版_files/core.php" charset="utf-8" type="text/javascript"></script><a href="https://www.cnzz.com/stat/website.php?web_id=1278192212" target="_blank" title="站长统计">站长统计</a></li></ul></div></div></div><p id="back-to-top" style="display: block;"><a href="https://www.wanweibaike.com/wiki-NP%E5%AE%8C%E5%85%A8#top"><span></span>顶部</a></p><script src="./NP完全 - 万维百科_维基百科中文版_files/bootstrap.min.js.下载" type="text/javascript"></script><script src="./NP完全 - 万维百科_维基百科中文版_files/index.js.下载" type="text/javascript"></script><script type="text/javascript">  $("#back-to-top").hide();
+  $(window).scroll(function() {
+      if ($(window).scrollTop() > 100) {
+          $("#back-to-top").fadeIn(500);
+      } else {
+          $("#back-to-top").fadeOut(500);
+      }
+  });
+  $("#back-to-top").click(function() {
+      $('body,html').animate({
+          scrollTop: 0
+      },
+      100);
+      return false;
+  });
+  $('sup a').click(function(){
+    var cite=$(this).attr('href');
+    var cite1=cite.replace('#','');
+    $('ol.references>li').css('background','#fff');
+    $('#'+cite1).css('background','#ffe2e2');
+  });
+  
+  $('table.navbox-inner tbody').each(function(i,n){
+    var firstTr=$(this).children(":first");
+    firstTr.addClass('default-hide');
+    firstTr.siblings().addClass('hidden');
+    firstTr.click(function(){
+      var thisTr=$(this);
+      if(thisTr.hasClass('default-hide')){
+        thisTr.siblings().removeClass('hidden');
+        thisTr.siblings().each(function(){
+          var trSiblings=$(this);
+          trSiblings.find('tr').removeClass('hidden');
+        });
+        thisTr.removeClass('default-hide');
+      }else{
+        thisTr.siblings().addClass('hidden');
+        thisTr.find('tr').addClass('hidden');
+        thisTr.addClass('default-hide');
+      }
+    }); 
+  });
+    var tableNav = $('table.navbox').eq(0);
+  if (tableNav.length) {
+    var tableHeight = tableNav.offset().top;
+  }
+  if(tableHeight < 3000){
+    $('table.navbox').eq(0).find('table.navbox-inner tbody').children(":first").trigger('click');
+  }
+var autoUpdate="1";
+  $('#updateNow').click(function(){
+    var updateUrl="/Article/update";
+    var id=$(this).data('id');
+    var my=$(this);
+    var wait=15;
+    timer = setInterval(function(){
+        if(wait==1){
+            my.removeClass('disabled').html('更新本页');
+            clearInterval(timer);
+            location.reload();
+        }else{
+            wait--;
+            my.addClass('disabled').html('正在更新:'+wait);
+        }
+    },1000);
+    $.post(updateUrl,{id:id},function(data){
+        if(data == 1){
+          clearInterval(timer);
+          my.text('更新太频繁，两分钟之后再试');
+          if(!autoUpdate){
+          	alert('更新太频繁，两分钟之后再试');
+          }
+          return false;
+        }else if(data == 2){
+          location.reload();
+        }else{
+          alert('更新失败，请两分钟之后再试');
+        }
+    },'json');
+  })
+  
+  var content=$.trim($('.detail').text()).substr(0,100);
+  var nowUpdate="1";
+  if(!content || nowUpdate != ''){
+  	if(!content){
+  		var wait=15;
+	    timer = setInterval(function(){
+	        if(wait==1){
+	            clearInterval(timer);
+	            location.reload();
+	        }else{
+	            wait--;
+	            $('h1').text('正在更新......稍等'+wait+'秒');
+	        }
+	    },1000);
+  	}
+  	$('#updateNow').trigger('click');
+  }
+  var submitUrl="/Index1/url_submit";
+  var nowUrl="article/VgpaAglT/NP完全";
+  $.post(submitUrl,{url:nowUrl},function(){},'json');
+</script><!-- Default Statcounter code for Wanweibaike20191111
+https://www.wanweibaike.com --><script type="text/javascript">var sc_project=12143838; 
+var sc_invisible=1; 
+var sc_security="126e1c24"; 
+</script><script type="text/javascript" src="./NP完全 - 万维百科_维基百科中文版_files/counter.js.下载" async=""></script><noscript><div class="statcounter"><a title="Web Analytics"
+href="https://statcounter.com/" target="_blank"><img
+class="statcounter"
+src="https://c.statcounter.com/12143838/0/126e1c24/1/"
+alt="Web Analytics"></a></div></noscript><!-- End of Statcounter Code --></body></html>
