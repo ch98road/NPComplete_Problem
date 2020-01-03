@@ -11,10 +11,10 @@ headers = {
 
 def getContent(url):
     try:
-        req = requests.get(url,headers = headers)
-        req.encoding = req.apparent_encoding
-        # print(req.text)
-        html = etree.HTML(req.text)
+        re = requests.get(url,headers = headers)
+        re.encoding = re.apparent_encoding
+        # print(re.text)
+        html = etree.HTML(re.text)
         title = html.xpath("//*[@id='__next']/div[1]/div/div/section[1]/h1/text()")
         content = []
         for each in html.xpath("//*[@id='__next']/div[1]/div/div/section[1]/article/*"):
