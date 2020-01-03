@@ -94,7 +94,6 @@ def get_keyword_sentence(cur):
                 'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 '
                               '(KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36'
             }
-
             cur.execute("select Word from KeyWords,KeywordsLinks where KeywordsLinks.KeyWordID= KeyWords.KeyWordID and KeywordsLinks.LinkID=(%d)" % int(LinkID))
             keyword=(cur.fetchone())[0]
             pattern=re.compile(r'.{5,20}'+keyword+r'.{5,20}',re.S)
@@ -105,7 +104,6 @@ def get_keyword_sentence(cur):
             con=""
             for item in items:
                 con+=item
-
             print(LinkID)
             print(len(con))
             cur.execute("""UPDATE KeywordsLinks SET Content="%s" WHERE LinkID=%d""" % (pymysql.escape_string(con),LinkID))#escape_string将用户的输入进行转义，防止SQL注入

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<!--[if IE 6]><html class="ie lt-ie8"><![endif]-->
+<!--[if IE 7]><html class="ie lt-ie8"><![endif]-->
+<!--[if IE 8]><html class="ie ie8"><![endif]-->
+<!--[if IE 9]><html class="ie ie9"><![endif]-->
+<!--[if !IE]><!--> <html> <!--<![endif]-->
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
+
+  <!-- Start of Baidu Transcode -->
+  <meta http-equiv="Cache-Control" content="no-siteapp" />
+  <meta http-equiv="Cache-Control" content="no-transform" />
+  <meta name="applicable-device" content="pc,mobile">
+  <meta name="MobileOptimized" content="width"/>
+  <meta name="HandheldFriendly" content="true"/>
+  <meta name="mobile-agent" content="format=html5;url=https://www.jianshu.com/search?q=%E5%BD%95%E5%B1%8F&amp;page=1&amp;type=note">
+  <!-- End of Baidu Transcode -->
+
+
+  <meta name="tencent-site-verification" content="39a5ed77a02c0103af6ac08addbc3851"/>
+  <meta name="360-site-verification" content="604a14b53c6b871206001285921e81d8" />
+  <meta property="wb:webmaster" content="294ec9de89e7fadb" />
+  <meta property="qc:admins" content="104102651453316562112116375" />
+  <meta property="qc:admins" content="11635613706305617" />
+  <meta property="qc:admins" content="1163561616621163056375" />
+  <meta name="google-site-verification" content="cV4-qkUJZR6gmFeajx_UyPe47GW9vY6cnCrYtCHYNh4" />
+  <meta name="google-site-verification" content="HF7lfF8YEGs1qtCE-kPml8Z469e2RHhGajy6JPVy5XI" />
+  <meta http-equiv="mobile-agent" content="format=html5; url=https://www.jianshu.com/search?q=%E5%BD%95%E5%B1%8F&amp;page=1&amp;type=note">
+
+  <!-- Apple -->
+  <meta name="apple-mobile-web-app-title" content="简书">
+
+    <meta name="robots" content="noindex">
+
+
+    <title>搜索 - 简书</title>
+
+  <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="/S+bMJMrOj+QwR3saJrGBAygWhg9F6D3tEqB53u5tEgJjfVOuFs1TbvhmI5/wLfOT8hP2wj4mPWcd2ot/0ry6w==" />
+
+  <link rel="stylesheet" media="all" href="//cdn2.jianshu.io/assets/web-30728a1164102859481d.css" />
+  
+  <link rel="stylesheet" media="all" href="//cdn2.jianshu.io/assets/web/pages/search/show/entry-0a4b0d02727ee62132b8.css" />
+
+  <link href="//cdn2.jianshu.io/assets/favicons/favicon-e743bfb1821442341c3ab15bdbe804f7ad97676bd07a770ccc9483473aa76f06.ico" rel="shortcut icon" type="image/x-icon">
+      <link rel="apple-touch-icon-precomposed" href="//cdn2.jianshu.io/assets/apple-touch-icons/57-a6f1f1ee62ace44f6dc2f6a08575abd3c3b163288881c78dd8d75247682a4b27.png" sizes="57x57" />
+      <link rel="apple-touch-icon-precomposed" href="//cdn2.jianshu.io/assets/apple-touch-icons/72-fb9834bcfce738fd7b9c5e31363e79443e09a81a8e931170b58bc815387c1562.png" sizes="72x72" />
+      <link rel="apple-touch-icon-precomposed" href="//cdn2.jianshu.io/assets/apple-touch-icons/76-49d88e539ff2489475d603994988d871219141ecaa0b1a7a9a1914f4fe3182d6.png" sizes="76x76" />
+      <link rel="apple-touch-icon-precomposed" href="//cdn2.jianshu.io/assets/apple-touch-icons/114-24252fe693524ed3a9d0905e49bff3cbd0228f25a320aa09053c2ebb4955de97.png" sizes="114x114" />
+      <link rel="apple-touch-icon-precomposed" href="//cdn2.jianshu.io/assets/apple-touch-icons/120-1bb7371f5e87f93ce780a5f1a05ff1b176828ee0d1d130e768575918a2e05834.png" sizes="120x120" />
+      <link rel="apple-touch-icon-precomposed" href="//cdn2.jianshu.io/assets/apple-touch-icons/152-bf209460fc1c17bfd3e2b84c8e758bc11ca3e570fd411c3bbd84149b97453b99.png" sizes="152x152" />
+
+  <!-- Start of 访问统计 -->
+    <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//hm.baidu.com/hm.js?0c0e9d9b1e7d617b3e6842e85b9fb068";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+  <!-- End of 访问统计 -->
+</head>
+
+  <!-- 只给10%的用户添加代码 -->
+  <!-- ###第四范式-智能推荐：代码直接复制 无需修改参数### -->
+  <!-- ###功能：上报内容并反馈用户行为### -->
+  <!--
+  -->
+  <body lang="zh-CN" class="reader-song-font">
+    <!-- 全局顶部导航栏 -->
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="width-limit">
+    <!-- 左上方 Logo -->
+    <a class="logo" href="/"><img src="//cdn2.jianshu.io/assets/web/nav-logo-4c7bbafe27adc892f3046e6978459bac.png" alt="Nav logo" /></a>
+
+    <!-- 右上角 -->
+      <!-- 未登录显示登录/注册/写文章 -->
+      <a class="btn write-btn" target="_blank" href="/writer#/">
+        <i class="iconfont ic-write"></i>写文章
+</a>      <a class="btn sign-up" id="sign_up" href="/sign_up">注册</a>
+      <a class="btn log-in" id="sign_in" href="/sign_in">登录</a>
+
+    <!-- 如果用户登录，显示下拉菜单 -->
+
+    <div id="navbar-jsds-enter">
+    </div>
+
+    <div id="view-mode-ctrl">
+    </div>
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu" aria-expanded="false">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="nav navbar-nav">
+            <li class="tab ">
+              <a href="/">
+                <span class="menu-text">首页</span><i class="iconfont ic-navigation-discover menu-icon"></i>
+</a>            </li>
+            <li class="tab ">
+              <a id="web-nav-app-download-btn" class="app-download-btn" href="/apps?utm_medium=desktop&amp;utm_source=navbar-apps"><span class="menu-text">下载App</span><i class="iconfont ic-navigation-download menu-icon"></i></a>
+            </li>
+          <li class="search">
+            <form target="_blank" action="/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+              <input type="text" name="q" id="q" value="录屏" autocomplete="off" placeholder="搜索" class="search-input" />
+              <a class="search-btn" href="javascript:void(null)"><i class="iconfont ic-search"></i></a>
+</form>          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+    
+<div id="app">
+  <script type='application/json' data-name='search-params'>
+    {"q":"录屏","page":1,"type":"note"}
+  </script>
+</div>
+
+    <script type="application/json" data-name="page-data">{"user_signed_in":false,"locale":"zh-CN","os":"windows","read_mode":null,"read_font":null}</script>
+    
+    <script src="//cdn2.jianshu.io/assets/babel-polyfill-d171e3dec4b6c15634dd.js" crossorigin="anonymous"></script>
+    <script src="//cdn2.jianshu.io/assets/web-base-81e4eea070b520c297ad.js" crossorigin="anonymous"></script>
+<script src="//cdn2.jianshu.io/assets/web-1bf83d221abd96c36e0b.js" crossorigin="anonymous"></script>
+    
+    <script src="//cdn2.jianshu.io/assets/web/pages/search/show/entry-8ce1c077f730b2f85bbc.js" crossorigin="anonymous"></script>
+    
+  </body>
+  <script data-ad-client="ca-pub-3077285224019295" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+</html>
