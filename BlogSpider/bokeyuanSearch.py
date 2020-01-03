@@ -6,7 +6,8 @@ import os
 import json
 
 headers = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36",
+    "cookie":"ShitNoRobotCookie=CfDJ8FKe-Oc4rmBCjdz4t-OOIu2aEYBudlB9ouQyKS59I7-mpuH4nlKbJjWLG1AlCW6KV9i7XJM75CdElvddoYV5QkcGXyda8ucnZLPJmfMMI5QChwjxFwm_FYME0m-e88z9xA; "
 }
 
 proxy_list = [
@@ -21,22 +22,23 @@ proxy_list = [
 def getContent(word, proxy, page, content):
     print("当前第{}页".format(page))
     try:
-        url = "https://so.csdn.net/so/search/s.do?p={}&q={}&t=blog&viparticle=&domain=&o=&s=&u=&l=&f=&rbg=0".format(
-            page,word)
+        url = "https://zzk.cnblogs.com/s/blogpost?Keywords={}&pageindex={}".format(
+            word,page)
         re = requests.get(url=url, headers=headers, proxies=proxy)
         html = etree.HTML(re.text)
-        tit_list = html.xpath("//dl[@class='search-list J_search']")
+        tit_list = html.xpath("//div[@class='forflow']/div[@class='searchItem']")
         # print(len(tit_list))
         for each in tit_list:
-            temp_url = each.xpath(".//div[@class='limit_width']/a[1]/@href")
+            temp_url = each.xpath("./h3/a/@href")
             temp_title = each.xpath(
-                ".//div[@class='limit_width']/a[1]")[0].xpath("string(.)")
+                "./h3/a")[0].xpath("string(.)")
             temp_content = each.xpath(
-                ".//dd[@class='search-detail']")[0].xpath("string(.)")
+                "./span")[0].xpath("string(.)").strip()
             # print("temp_url={}\ntitle={}\ncontent={}\n\n".format(temp_url, temp_title,temp_content))
             content.append([temp_title, temp_content, temp_url])
 
-        if int(html.xpath("//span[@class='page-nav']/a/@page_num")[-1]) > page:
+        print()
+        if "current" not in str(html.xpath("//div[@class='forflow']/div[@id='paging_block']//a/@class")[-1]):
             time.sleep(random.uniform(0, 2))
             return getContent(word=word, proxy=proxy, page=page+1, content=content)
     except:

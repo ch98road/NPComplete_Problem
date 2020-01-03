@@ -35,6 +35,7 @@ def getContent(url):
         return title,content
     except:
         return "",""
+        
 def save(title,content):
     with open("{}.md".format(title[0]),'w',encoding='utf-8') as f:
         f.write(str(title[0])+'\n\n')
