@@ -4,6 +4,7 @@ from lxml import etree
 import random
 import os
 import json
+import mysql.mysqlUtils as sq
 
 headers = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36",
@@ -31,24 +32,36 @@ def getContent(word, proxy, page, content):
         for each in tit_list:
             temp_url = each.xpath("./h3/a/@href")[0]
             temp_title = each.xpath(
-                "./h3/a")[0].xpath("string(.)")
+                "./h3/a")[0].xpath("string(.)").replace("\"","").replace("\n","").replace(")"," ").replace("("," ").replace("\\","")
             temp_content = each.xpath(
-                "./span")[0].xpath("string(.)").strip()
+                "./span")[0].xpath("string(.)").strip().replace("\"","").replace("\n","").replace(")"," ").replace("("," ").replace("\\","")
             # print("temp_url={}\ntitle={}\ncontent={}\n\n".format(temp_url, temp_title,temp_content))
-            content.append([temp_title, temp_content, temp_url])
+            content.append([temp_url,temp_title, temp_content])
 
-        print()
-        if "current" not in str(html.xpath("//div[@class='forflow']/div[@id='paging_block']//a/@class")[-1]):
-            time.sleep(random.uniform(0, 2))
-            return getContent(word=word, proxy=proxy, page=page+1, content=content)
-    except:
-        print("访问出错")
+        try:
+            cla = str(html.xpath("//div[@class='forflow']/div[@id='paging_block']//a/@class")[-1])
+        except:
+            pass
+        # 可能会报错
+        if cla:
+            if "current" not in cla:
+                time.sleep(random.uniform(0, 2))
+                return getContent(word=word, proxy=proxy, page=page+1, content=content)
+    except NameError as e:
+        print(e,"访问出错")
     return content
 
-if __name__ == '__main__':
+def do(word):
     proxy = {"http": random.choice(proxy_list)}
-    word = "3sat"
+
     content = getContent(word=word, proxy=proxy, page=1, content=[])
-    for each in content:
-        print("title={}\ncontent={}\nurl={}\n\n".format(
-            each[0], each[1], each[2]))
+    # for each in content:
+    #     print("title={}\ncontent={}\nurl={}\n\n".format(
+    #         each[0], each[1], each[2]))
+    print(len(content))
+    sq.insert_into_inital_data(content, "博客园")
+
+if __name__ == '__main__':
+    pass
+    word = "3sat 规约"
+    do(word)

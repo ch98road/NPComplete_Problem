@@ -16,15 +16,15 @@ def getContent(session):
     print(req.url)
     # print(req.text)
 
-    # content_box = html.xpath("//div[@class = 'content']/*")
-    # for each in content_box:
-    #     title = each.xpath(".//h3")
-    #     # if type(title) is list and title:
-    #     #     print(title[0].xpath("string(.)"))
-    #     # print(each.xpath("string(.)"))
-    #     content = each.xpath(".//font")
-    #     if type(content) is list and content:
-    #         print(str(content[0].xpath("string(.)")).replace('\n','').replace('\t','').replace(' ','')+"\n")
+    content_box = html.xpath("//div[@class = 'content']/*")
+    for each in content_box:
+        title = each.xpath(".//h3")
+        # if type(title) is list and title:
+        #     print(title[0].xpath("string(.)"))
+        # print(each.xpath("string(.)"))
+        content = each.xpath(".//font")
+        if type(content) is list and content:
+            print(str(content[0].xpath("string(.)")).replace('\n','').replace('\t','').replace(' ','')+"\n")
     return session
 
 if __name__ == '__main__':
