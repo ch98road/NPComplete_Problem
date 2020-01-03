@@ -29,7 +29,7 @@ def getContent(word, proxy, page, content):
         tit_list = html.xpath("//div[@class='forflow']/div[@class='searchItem']")
         # print(len(tit_list))
         for each in tit_list:
-            temp_url = each.xpath("./h3/a/@href")
+            temp_url = each.xpath("./h3/a/@href")[0]
             temp_title = each.xpath(
                 "./h3/a")[0].xpath("string(.)")
             temp_content = each.xpath(
@@ -50,5 +50,5 @@ if __name__ == '__main__':
     word = "3sat"
     content = getContent(word=word, proxy=proxy, page=1, content=[])
     for each in content:
-        print("url={}\ntitle={}\ncontent={}\n\n".format(
+        print("title={}\ncontent={}\nurl={}\n\n".format(
             each[0], each[1], each[2]))
